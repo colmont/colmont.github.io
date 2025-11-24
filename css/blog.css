@@ -279,6 +279,20 @@ hr {
   line-height: 1.4em;
 }
 
+.sidebar-email {
+  display: block;
+  margin-top: var(--spacing-sm);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.sidebar-email:hover {
+  color: var(--color-text-primary);
+  text-decoration: underline;
+}
+
 .profile-photo {
   width: var(--size-profile-photo);
   height: var(--size-profile-photo);
