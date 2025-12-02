@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://colmont.github.io/sitemap.xml
