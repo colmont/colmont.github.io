@@ -1,0 +1,18 @@
+<head>
+    <title>{{ include.title }}</title>
+    <meta charset='UTF-8'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+
+    <meta name='description' content='{{ include.description }}'>
+    <meta name='keywords' content='{{ include.keywords }}'>
+    <meta name='author' content='Colin Doumont'>
+
+    <link rel='shortcut icon' href='/favicon.png?v=e' />
+    <link href='/css/blog.css' rel='stylesheet'/>
+    {% if include.extra_css %}
+    <link href='/css/trac.css' rel='stylesheet'/>
+    <link href='/css/markdown.css' rel='stylesheet'/>
+    {% endif %}
+
+    {% include mathjax.html %}
+</head>
