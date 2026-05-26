@@ -1,7 +1,7 @@
 <div class='nav wrap'>
     <ul>
-        <li><a href='/'>Home</a></li>
-        <li><a href='/pages/publications'>Publications</a></li>
-        <li><a href='/pages/cv'>Bio</a></li>
+        <li><a href='/' {% if page.url == '/' %}class='active'{% endif %}>Home</a></li>
+        <li><a href='/pages/publications' {% if page.url contains 'publications' %}class='active'{% endif %}>Publications</a></li>
+        <li><a href='/pages/bio' {% if page.url contains 'bio' %}class='active'{% endif %}>Bio</a></li>
     </ul>
 </div>
